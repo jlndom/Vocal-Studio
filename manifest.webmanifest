@@ -1,1 +1,1 @@
-{"name":"Vocal Coach Studio","short_name":"Vocal Coach","description":"Your personal singing practice studio","start_url":"./","scope":"./","display":"standalone","background_color":"#101626","theme_color":"#171d31","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"Vocal Coach Studio AI Edition","short_name":"Vocal Coach","start_url":"./","scope":"./","display":"standalone","background_color":"#0b1220","theme_color":"#111827","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

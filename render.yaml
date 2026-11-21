@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: vocal-coach-studio-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_AUDIO_MODEL
+        value: gpt-audio-1.5
+      - key: ALLOWED_ORIGINS
+        value: https://jindom.github.io
